@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/twoheartsdialog"
+    android:id="@+id/layout"
+    >
+
+
+    <ImageButton
+        android:id="@+id/tryagain"
+        android:layout_width="100dp"
+
+        android:layout_height="50dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/trybtn"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffffff"
+
+        />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="90dp"
+
+        android:layout_height="50dp"
+
+        android:layout_marginTop="125dp"
+        android:background="@drawable/exit"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffffff"
+
+        />
+
+</RelativeLayout>

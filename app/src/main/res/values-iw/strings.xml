@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EggZit</string>
+    <string name="play">התחל</string>
+    <string name="instructions">הוראות</string>
+    <string name="records">שיאים</string>
+    <string name="how">איך משחקים ?</string>
+    <string name="move">הזז את הפלאפון מצד לצד על מנת עזור לביצה להתגלגל כל הדרך בחזרה לקן.</string>
+    <string name="High_Score">טבלת שיאים</string>
+</resources>

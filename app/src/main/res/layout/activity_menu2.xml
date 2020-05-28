@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/start1"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="40dp"
+        android:id="@+id/logo1"
+
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/staranim"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="180dp"
+        android:id="@+id/star1"
+
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/staranim"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="190dp"
+        android:id="@+id/star2"
+
+        />
+
+
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn"
+        android:layout_marginTop="333dp"
+        android:layout_marginStart="120dp"
+        android:text="@string/play"
+
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/btn1"
+
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="28dp"
+        android:textSize="15sp"
+        android:text="@string/instructions"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/btn2"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@drawable/btn"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="28dp"
+        android:textSize="15sp"
+        android:text="@string/records"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/btn3"
+        />
+
+
+</RelativeLayout>

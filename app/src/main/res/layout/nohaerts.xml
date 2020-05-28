@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/d1"
+    android:id="@+id/layout"
+    >
+
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="OK"
+        android:background="@drawable/ic_cancel_black_24dp"
+        android:id="@+id/btn_gobacke"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#ffffffff"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/name"
+        android:hint="name"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp"
+        tools:ignore="MissingConstraints"
+        android:text="confirm"
+        android:id="@+id/confirm"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+</android.support.constraint.ConstraintLayout>

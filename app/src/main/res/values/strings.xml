@@ -1,0 +1,9 @@
+<resources>
+    <string name="play">Play</string>
+    <string name="instructions">Instructions</string>
+    <string name="records">records</string>
+    <string name="how">How to play ?</string>
+    <string name="move">move your phone from side to side to help the littel egg roll back to the nest.</string>
+    <string name="High_Score">High Score</string>
+    <string name="app_name">EggZit</string>
+</resources>
